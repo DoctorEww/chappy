@@ -11,7 +11,7 @@ password="abc123"
 salt="%4$bct"
 whatsinthedatabase=hash(username+password+salt)
 def checkpassword(randstr,shouldbe):
-    print(randomstring +"\n -->this would be a capatchea")
+    print(randstr +"\n -->this would be a capatchea")
     capatchea=input("What does it say?\n -->")
     uname=input("whats your username\n -->")
     pword=input("whats your password\n -->")
